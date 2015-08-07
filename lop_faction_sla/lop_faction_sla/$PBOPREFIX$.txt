@@ -1,0 +1,5 @@
+///////<HEADER>///////
+prefix=lop_faction_sla
+Pbo Type is: Arma Addon
+Sha: '6B7570D02836302383F8E0654F4256070B71DB4A'
+//////</HEADER>//////
