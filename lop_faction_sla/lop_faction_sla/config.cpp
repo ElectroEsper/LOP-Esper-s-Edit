@@ -1282,6 +1282,8 @@ class CfgVehicles
 		vehicleClass = "LOP_Aircraft";
 		crew = "LOP_SLA_Infantry_Pilot";
 		displayName = "Ka-52";
+		hiddenSelections[] = {"Camo1","Camo2"};
+		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\ka52_01_RU_co.paa","\lop_faction_sla\data\ka52_02_RU_co.paa"};
 	};
 	class RHS_NSV_TriPod_MSV;
 	class RHS_M2StaticMG_D;
