@@ -1,1 +1,0 @@
-[_this,[["Number", [4,5], "Handpaint"]]] spawn rhs_fnc_decalsInit;
