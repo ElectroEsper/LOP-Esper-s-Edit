@@ -405,11 +405,11 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"LOP_Weap_SVDS", "Throw", "Put"};
-		respawnWeapons[] = {"LOP_Weap_SVDS", "Throw", "Put"};
+		weapons[] = {"RACS_SR25", "Throw", "Put"};
+		respawnWeapons[] = {"RACS_SR25", "Throw", "Put"};
 		
-		magazines[] = {"rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		respawnMagazines[] = {"rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
 	
 		linkedItems[] = {"LOP_V_CarrierRig_TAN", "LOP_H_Booniehat_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"LOP_V_CarrierRig_TAN", "LOP_H_Booniehat_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};

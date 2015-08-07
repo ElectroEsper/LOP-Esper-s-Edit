@@ -96,7 +96,7 @@ class CfgGroups
 					class Unit6
 					{
 						side = 2;
-						vehicle = "LOP_RACS_Infantry_AT_Asst";
+						vehicle = "LOP_RACS_Infantry_HAT_Asst";
 						rank = "PRIVATE";
 						position[] = {11,0,0};
 					};
@@ -403,7 +403,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 2;
-						vehicle = "LOP_RACS_Infantry_AT_Asst";
+						vehicle = "LOP_RACS_Infantry_HAT_Asst";
 						rank = "PRIVATE";
 						position[] = {3,0,0};
 					};
@@ -496,7 +496,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "LOP_RACS_Infantry_AT_Asst";
+						vehicle = "LOP_RACS_Infantry_HAT_Asst";
 						rank = "PRIVATE";
 						position[] = {5,0,0};
 					};
@@ -680,7 +680,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 2;
-						vehicle = "LOP_RACS_Infantry_AT_Asst";
+						vehicle = "LOP_RACS_Infantry_HAT_Asst";
 						rank = "PRIVATE";
 						position[] = {3,0,0};
 					};
@@ -773,7 +773,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "LOP_RACS_Infantry_AT_Asst";
+						vehicle = "LOP_RACS_Infantry_HAT_Asst";
 						rank = "PRIVATE";
 						position[] = {5,0,0};
 					};
@@ -936,7 +936,7 @@ class CfgGroups
 					class Unit6
 					{
 						side = 2;
-						vehicle = "LOP_RACS_Infantry_AT_Asst";
+						vehicle = "LOP_RACS_Infantry_HAT_Asst";
 						rank = "PRIVATE";
 						position[] = {11,0,0};
 					};
@@ -1214,7 +1214,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "LOP_RACS_Infantry_AT_Asst";
+						vehicle = "LOP_RACS_Infantry_HAT_Asst";
 						rank = "PRIVATE";
 						position[] = {5,0,0};
 					};

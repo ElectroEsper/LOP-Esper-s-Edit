@@ -74,6 +74,7 @@ class WeaponCloudsMGun;	// External class reference
 class cfgWeapons {
 	#include "CfgUniforms.hpp"
 	#include "CfgHeadgear.hpp"
+	#include "CfgArmory.hpp"
 };
 class CfgVehicles {
 	#include "CfgInfantry.hpp"
