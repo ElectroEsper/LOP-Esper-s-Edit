@@ -1,6 +1,8 @@
 	class rhs_6b27m;
 	class rhs_6b27m_digi_ess;
 	class HeadgearItem;
+	class H_Beret_02;
+	
 	class LOP_H_6B27M_RACS : rhs_6b27m {
 		_generalMacro = "LOP_H_6B27M_RACS";
 		author = $STR_LOP_FULL_NAME;
@@ -40,23 +42,11 @@
 			hiddenSelections[] = {"camo"};
 		};
 	};
-	class LOP_H_Beret_blue: ItemCore {
+	class LOP_H_Beret_blue: H_Beret_02 {
 		_generalMacro = "LOP_H_Beret_blue";
 		author = "Esper";
 		scope = 2;
-		weaponPoolAvailable = 1;
 		displayName = "Beret (RACS)";
-		picture = "\lop_main\data\ui\icon_h_lop_helmet_plain_ca.paa";
-		model = "\lop_faction_chdkz\Ins_Beret";
-		hiddenSelectionsTextures[] = {"\lop_faction_racs\data\headgear_beret_blue_co.paa"};
+		hiddenSelectionsTextures[] = {"\lop_faction_racs\data\lop_racs_beret_co.paa"};
 		hiddenSelections[] = {"Camo"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 5;
-			uniformmodel = "\lop_faction_chdkz\Ins_Beret";
-			modelSides[] = {3,1};
-			armor = 0;
-			passThrough = 1;
-			hiddenSelections[] = {"Camo"};
-		};
 	};
