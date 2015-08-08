@@ -75,6 +75,7 @@ class cfgWeapons {
 	#include "CfgUniforms.hpp"
 	#include "CfgHeadgear.hpp"
 	#include "CfgArmory.hpp"
+	#include "CfgVest.hpp"
 };
 class CfgVehicles {
 	#include "CfgInfantry.hpp"

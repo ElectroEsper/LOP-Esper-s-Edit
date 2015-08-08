@@ -2,6 +2,8 @@
 	class rhsusf_falconii;
 	class rhs_rpg_empty;
 	class B_FieldPack_khk;
+	class B_Carryall_cbr;
+	
 	class LOP_AA_Kitbag_Med : B_Kitbag_rgr {
 		_generalMacro = "LOP_AA_Kitbag_Med";
 		author = $STR_LOP_FULL_NAME;
@@ -69,3 +71,41 @@
 			};
 		};
 	};
+	class LOP_RACS_Fieldpack_M240 : B_Carryall_cbr {
+		_generalMacro = "LOP_RACS_Fieldpack_M240";
+		author = "Esper";
+		
+		scope = 1;
+		class TransportMagazines {
+			class _xx_rhsusf_100Rnd_762x51 {
+				count = 4;
+				magazine = "rhsusf_100Rnd_762x51";
+			};
+		};
+	};
+	class LOP_RACS_Fieldpack_AA : B_Carryall_cbr {
+		_generalMacro = "LOP_RACS_Fieldpack_AA";
+		author = "Esper";
+		
+		scope = 1;
+		class TransportMagazines {
+			class _xx_rhs_fim92_mag {
+				count = 2;
+				magazine = "rhs_fim92_mag";
+			};
+		};
+	};
+	class LOP_RACS_Fieldpack_HAT : B_Carryall_cbr {
+		_generalMacro = "LOP_RACS_Fieldpack_HAT";
+		author = "Esper";
+		
+		scope = 1;
+		class TransportMagazines {
+			class _xx_rhs_fgm148_magazine_AT {
+				count = 2;
+				magazine = "rhs_fgm148_magazine_AT";
+			};
+		};
+	};
+	
+	

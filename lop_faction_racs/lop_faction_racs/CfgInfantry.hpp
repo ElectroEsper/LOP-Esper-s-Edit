@@ -50,11 +50,11 @@
 		weapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		
-		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_an_m8hc", "rhs_mag_m18_red"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_an_m8hc", "rhs_mag_m18_red"};
 	
-		linkedItems[] = {"LOP_V_CarrierRig_OLV", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierRig_OLV", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_TeamLeader", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_TeamLeader", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
 		backpack = "";
 	};
@@ -68,7 +68,7 @@
 		faction = "LOP_RACS";
 		vehicleClass = "LOP_Men";
 		
-		displayName = "Section Leader";
+		displayName = "Squad Leader";
 		
 		uniformClass = "LOP_U_RACS_Fatigue_01_slv";
 		
@@ -91,14 +91,14 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m16a4_carryhandle_grip", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		
-		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_m67", "rhs_mag_an_m8hc", "rhs_mag_m18_red", "rhs_mag_m18_green", "rhs_mag_m18_yellow"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_m67", "rhs_mag_an_m8hc", "rhs_mag_m18_red", "rhs_mag_m18_green", "rhs_mag_m18_yellow"};
 	
-		linkedItems[] = {"LOP_V_CarrierRig_TAN", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierRig_TAN", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_SquadLeader", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_SquadLeader", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
 		backpack = "";
 	};	
@@ -135,11 +135,11 @@
 		weapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		
-		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m18_red"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m18_red"};
 	
-		linkedItems[] = {"LOP_V_CarrierLite_OLV", "LOP_H_6B27M_WDL", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierLite_OLV", "LOP_H_6B27M_WDL", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Medic", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Medic", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
 		backpack = "LOP_RACS_Kitbag_Med";
 	};
@@ -176,11 +176,11 @@
 		weapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		
-		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m67", "rhs_mag_m67"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m67", "rhs_mag_m67"};
 	
-		linkedItems[] = {"LOP_V_CarrierLite_TAN", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierLite_TAN", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
 		backpack = "";
 	};	
@@ -212,14 +212,14 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m16a4_carryhandle_grip", "rhs_weap_M136", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip", "rhs_weap_M136", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle", "rhs_weap_M136", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "rhs_weap_M136", "Throw", "Put"};
 		
-		magazines[] = {"rhs_m136_mag","rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_m136_mag","rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_m136_mag", "rhs_mag_m67"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_m136_mag", "rhs_mag_m67"};
 	
-		linkedItems[] = {"LOP_V_CarrierLite_WDL", "LOP_H_6B27M_WDL", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierLite_WDL", "LOP_H_6B27M_WDL", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
 		backpack = "";
 	};	
@@ -251,16 +251,16 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m16a4_carryhandle_grip", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		
-		magazines[] = {"rhs_fgm148_magazine_AT","rhs_fgm148_magazine_AT","rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_fgm148_magazine_AT","rhs_fgm148_magazine_AT","rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_fgm148_magazine_AT", "rhs_mag_m67","rhs_fgm148_magazine_AT"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_fgm148_magazine_AT", "rhs_mag_m67","rhs_fgm148_magazine_AT"};
 	
 		linkedItems[] = {"LOP_V_CarrierLite_WDL", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"LOP_V_CarrierLite_WDL", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
-		backpack = "B_Carryall_cbr";
+		backpack = "LOP_RACS_Fieldpack_HAT";
 	};	
 	class LOP_RACS_Infantry_MG_Asst : I_Soldier_A_F {
 		_generalMacro = "LOP_RACS_Infantry_MG_Asst";
@@ -290,16 +290,16 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m16a4_carryhandle_grip", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		
-		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_an_m8hc"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_an_m8hc"};
 	
-		linkedItems[] = {"LOP_V_CarrierRig_WDL", "LOP_H_6B27M_WDL", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierRig_WDL", "LOP_H_6B27M_WDL", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
-		backpack = "LOP_RACS_Fieldpack_PKM";
+		backpack = "LOP_RACS_Fieldpack_M240";
 	};
 	class LOP_RACS_Infantry_MG : I_Soldier_AR_F {
 		_generalMacro = "LOP_RACS_Infantry_MG";
@@ -332,11 +332,11 @@
 		weapons[] = {"rhs_weap_pkm", "Throw", "Put"};
 		respawnWeapons[] = {"rhs_weap_pkm", "Throw", "Put"};
 		
-		magazines[] = {"rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_an_m8hc"};
+		respawnMagazines[] = {"rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR" , "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_an_m8hc"};
 	
-		linkedItems[] = {"LOP_V_CarrierRig_OLV", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierRig_OLV", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Saw", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Saw", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
 		backpack = "LOP_RACS_Fieldpack_PKM";
 	};	
@@ -371,11 +371,11 @@
 		weapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		
-		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m18_red"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m18_red"};
 	
-		linkedItems[] = {"LOP_V_CarrierRig_WDL", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierRig_WDL", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Repair", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Repair", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
 	class LOP_RACS_Infantry_Marksman : I_Soldier_F {
 		_generalMacro = "LOP_RACS_Infantry_Marksman";
@@ -405,14 +405,14 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"RACS_SR25", "Throw", "Put"};
-		respawnWeapons[] = {"RACS_SR25", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m14ebrri_leu", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m14ebrri_leu", "Throw", "Put"};
 		
-		magazines[] = {"rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhs_mag_m67"	};
+		respawnMagazines[] = {"rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag", "rhs_mag_m67"	};
 	
-		linkedItems[] = {"LOP_V_CarrierRig_TAN", "LOP_H_Booniehat_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierRig_TAN", "LOP_H_Booniehat_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_Booniehat_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_Booniehat_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
 		backpack = "LOP_RACS_FalconII_SVD";
 	};	
@@ -444,14 +444,14 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m4_m320", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_m4_m320", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle_M203", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_M203", "Throw", "Put"};
 		
-		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE"};
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_m67"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_m67"};
 	
-		linkedItems[] = {"LOP_V_CarrierLite_WDL", "rhs_6b27m_green", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierLite_WDL", "rhs_6b27m_green", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Grenadier", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Grenadier", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
 		backpack = "";
 	};	
@@ -483,14 +483,14 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m4_carryhandle", "rhsusf_weap_m1911a1", "Binocular",  "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m4_carryhandle", "rhsusf_weap_m1911a1", "Binocular",  "Throw", "Put"};
 		
-		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_m18_red", "rhs_mag_an_m8hc"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_m18_red", "rhs_mag_an_m8hc"};
 	
-		linkedItems[] = {"LOP_V_Carrier_OLV", "rhs_tsh4", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_Carrier_OLV", "rhs_tsh4", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Base", "rhsusf_cvc_helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Base", "rhsusf_cvc_helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
 		backpack = "";
 	};	
@@ -506,7 +506,7 @@
 		
 		displayName = "Crewman";
 		
-		uniformClass = "LOP_U_RACS_Fatigue_01_slv";
+		uniformClass = "U_C_WorkerCoveralls";
 
 		identityTypes[]=
 		{
@@ -522,14 +522,14 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m4_carryhandle", "rhsusf_weap_m1911a1", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m4_carryhandle", "rhsusf_weap_m1911a1", "Throw", "Put"};
 		
-		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_an_m8hc", "rhs_mag_m18_red"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_an_m8hc", "rhs_mag_m18_red"};
 	
-		linkedItems[] = {"LOP_V_Carrier_TAN", "rhs_zsh7a_mike", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_Carrier_TAN", "rhs_zsh7a_mike", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Base", "rhsusf_hgu56p", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Base", "rhsusf_hgu56p", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
 		backpack = "";
 	};
@@ -561,14 +561,14 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m16a4_carryhandle","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle","Throw","Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		
-		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","SmokeShell","SmokeShellRed","HandGrenade","HandGrenade"};
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","SmokeShell","SmokeShellRed","HandGrenade","HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_m67", "rhs_mag_an_m8hc", "rhs_mag_m18_red", "rhs_mag_m18_green", "rhs_mag_m18_yellow"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_m67", "rhs_mag_an_m8hc", "rhs_mag_m18_red", "rhs_mag_m18_green", "rhs_mag_m18_yellow"};
 		
-		linkedItems[] = {"rhs_vest_commander","LOP_H_Beret_blue","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"rhs_vest_commander","LOP_H_Beret_blue","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_SquadLeader","LOP_H_Beret_blue","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_SquadLeader","LOP_H_Beret_blue","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		
 		backpack = "";
 		
@@ -601,16 +601,16 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m16a4_carryhandle_grip", "rhs_weap_fim92", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip", "rhs_weap_fim92", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle", "rhs_weap_fim92", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "rhs_weap_fim92", "Throw", "Put"};
 		
-		magazines[] = {"rhs_fim92_mag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_fim92_mag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_fim92_mag", "rhs_mag_m67"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_fim92_mag", "rhs_mag_m67"};
 	
-		linkedItems[] = {"LOP_V_CarrierLite_WDL", "LOP_H_6B27M_WDL", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierLite_WDL", "LOP_H_6B27M_WDL", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
-		backpack = "B_Carryall_cbr";
+		backpack = "LOP_RACS_Fieldpack_AA";
 	};
     class LOP_RACS_Infantry_HAT : I_Soldier_AT_F {
 		_generalMacro = "LOP_RACS_Infantry_HAT";
@@ -640,16 +640,16 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m16a4_carryhandle_grip", "rhs_weap_fgm148", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip", "rhs_weap_fgm148", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle", "rhs_weap_fgm148", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "rhs_weap_fgm148", "Throw", "Put"};
 		
-		magazines[] = {"rhs_fgm148_magazine_AT","rhs_fgm148_magazine_AT", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_fgm148_magazine_AT","rhs_fgm148_magazine_AT", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_fgm148_magazine_AT", "rhs_mag_m67"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_fgm148_magazine_AT", "rhs_mag_m67"};
 	
-		linkedItems[] = {"LOP_V_CarrierLite_WDL", "LOP_H_6B27M_WDL", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierLite_WDL", "LOP_H_6B27M_WDL", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_ess_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
-		backpack = "B_Carryall_cbr";
+		backpack = "LOP_RACS_Fieldpack_HAT";
 	};	
     class LOP_RACS_Infantry_AA_Asst : I_Soldier_A_F {
 		_generalMacro = "LOP_RACS_Infantry_AA_Asst";
@@ -679,14 +679,14 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_m16a4_carryhandle_grip", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle", "Throw", "Put"};
 		
-		magazines[] = {"rhs_fim92_mag","rhs_fim92_mag","rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_fim92_mag","rhs_fim92_mag","rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m67", "rhs_mag_m67"};
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_m67", "rhs_mag_m67"};
 	
-		linkedItems[] = {"LOP_V_CarrierLite_WDL", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"LOP_V_CarrierLite_WDL", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"LOP_RACS_Vest_Rifleman", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		
-		backpack = "B_Carryall_cbr";
+		backpack = "LOP_RACS_Fieldpack_AA";
 	};	
