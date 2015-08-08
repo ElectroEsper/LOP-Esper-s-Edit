@@ -506,7 +506,7 @@
 		
 		displayName = "Crewman";
 		
-		uniformClass = "U_C_WorkerCoveralls";
+		uniformClass = "LOP_U_RACS_Fatigue_01_slv";
 
 		identityTypes[]=
 		{
