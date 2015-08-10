@@ -18,6 +18,7 @@
 		_generalMacro = "LOP_RACS_Infantry_TL";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 3;
 		scope = 2;
 		side = 2;
 	
@@ -62,6 +63,7 @@
 		_generalMacro = "LOP_RACS_Infantry_SL";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 3;
 		scope = 2;
 		side = 2;
 	
@@ -106,6 +108,7 @@
 		_generalMacro = "LOP_RACS_Infantry_Corpsman";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -147,6 +150,7 @@
 		_generalMacro = "LOP_RACS_Infantry_Rifleman";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -188,6 +192,7 @@
 		_generalMacro = "LOP_RACS_Infantry_AT";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -227,6 +232,7 @@
 		_generalMacro = "LOP_RACS_Infantry_HAT_Asst";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -266,6 +272,7 @@
 		_generalMacro = "LOP_RACS_Infantry_MG_Asst";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -305,6 +312,7 @@
 		_generalMacro = "LOP_RACS_Infantry_MG";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -329,11 +337,11 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		
-		weapons[] = {"rhs_weap_pkm", "Throw", "Put"};
-		respawnWeapons[] = {"rhs_weap_pkm", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m240B", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m240B", "Throw", "Put"};
 		
-		magazines[] = {"rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_an_m8hc"};
-		respawnMagazines[] = {"rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR" , "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_an_m8hc"};
+		magazines[] = {"rhsusf_100Rnd_762x51", "rhsusf_100Rnd_762x51", "rhsusf_100Rnd_762x51", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_an_m8hc"};
+		respawnMagazines[] = {"rhsusf_100Rnd_762x51", "rhsusf_100Rnd_762x51", "rhsusf_100Rnd_762x51", "rhs_mag_m67", "rhs_mag_m67", "rhs_mag_an_m8hc"};
 	
 		linkedItems[] = {"LOP_RACS_Vest_Saw", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"LOP_RACS_Vest_Saw", "LOP_H_6B27M_RACS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -344,6 +352,7 @@
 		_generalMacro = "LOP_RACS_Infantry_Engineer";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -381,6 +390,7 @@
 		_generalMacro = "LOP_RACS_Infantry_Marksman";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 3;
 		scope = 2;
 		side = 2;
 	
@@ -420,6 +430,7 @@
 		_generalMacro = "LOP_RACS_Infantry_GL";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -459,6 +470,7 @@
 		_generalMacro = "LOP_RACS_Infantry_Crewman";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -498,6 +510,7 @@
 		_generalMacro = "LOP_RACS_Infantry_Pilot";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 8;
 		scope = 2;
 		side = 2;
 	
@@ -537,6 +550,7 @@
 		_generalMacro = "LOP_RACS_Infantry_Officer";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 3;
 		scope = 2;
 		side = 2;
 		
@@ -577,6 +591,7 @@
 		_generalMacro = "LOP_RACS_Infantry_AA";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -616,6 +631,7 @@
 		_generalMacro = "LOP_RACS_Infantry_HAT";
 		author = $STR_LOP_FULL_NAME;
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	
@@ -655,6 +671,7 @@
 		_generalMacro = "LOP_RACS_Infantry_AA_Asst";
 		author = "Esper";
 		
+		asr_ai_level = 4;
 		scope = 2;
 		side = 2;
 	

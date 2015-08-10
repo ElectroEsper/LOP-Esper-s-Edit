@@ -533,7 +533,7 @@ class CfgGroups
 			};			
 			class Motorized
 			{
-			    name = "Motorized Infantry";
+			    name = "Motorized";
 				class LOP_RACS_infantry_chq
 				{
 					name = "Company HQ";
@@ -847,7 +847,7 @@ class CfgGroups
 			};
 			class Mechanized
 			{
-			    name = "Mechanized Infantry";
+			    name = "Mechanized";
 				class LOP_RACS_infantry_chq_m113
 				{
 					name = "(M113) Company HQ";

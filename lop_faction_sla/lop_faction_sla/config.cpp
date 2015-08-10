@@ -369,10 +369,10 @@ class CfgVehicles
 	class B_sniper_F;
 	class RHS_Ka52_base;
 	
-	class LOP_SLA_Infantry_Rifleman: rhs_msv_rifleman
-	{
+	class LOP_SLA_Infantry_Rifleman: rhs_msv_rifleman	{
 		_generalMacro = "LOP_SLA_Infantry_Rifleman";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -394,10 +394,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Rifleman","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "";
 	};
-	class LOP_SLA_Infantry_Pilot: rhs_msv_rifleman
-	{
+	class LOP_SLA_Infantry_Pilot: rhs_msv_rifleman	{
 		_generalMacro = "LOP_SLA_Infantry_Pilot";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -428,10 +428,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Crew","rhs_zsh7a_mike","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "";
 	};
-	class LOP_SLA_Infantry_TL: rhs_msv_junior_sergeant
-	{
+	class LOP_SLA_Infantry_TL: rhs_msv_junior_sergeant	{
 		_generalMacro = "LOP_SLA_Infantry_TL";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 3;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -451,10 +451,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_vog_headset","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "";
 	};
-	class LOP_SLA_Infantry_SL: rhs_msv_sergeant
-	{
+	class LOP_SLA_Infantry_SL: rhs_msv_sergeant	{
 		_generalMacro = "LOP_SLA_Infantry_SL";
 		author = "Esper";
+		asr_ai_level = 3;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -474,10 +474,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_headset_mapcase","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "";
 	};
-	class LOP_SLA_Infantry_Crewman: rhs_msv_crew
-	{
+	class LOP_SLA_Infantry_Crewman: rhs_msv_crew	{
 		_generalMacro = "LOP_SLA_Infantry_Crewman";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -497,10 +497,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Crew","rhs_tsh4","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "";
 	};
-	class LOP_SLA_Infantry_Corpsman: rhs_msv_medic
-	{
+	class LOP_SLA_Infantry_Corpsman: rhs_msv_medic	{
 		_generalMacro = "LOP_SLA_Infantry_Corpsman";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -520,10 +520,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Medic","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_Kitbag_Med";
 	};
-	class LOP_SLA_Infantry_Officer: rhs_msv_officer
-	{
+	class LOP_SLA_Infantry_Officer: rhs_msv_officer	{
 		_generalMacro = "LOP_SLA_Infantry_Officer";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 3;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -543,10 +543,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_CrewOfficer","LOP_H_SLA_Beret","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "";
 	};
-	class LOP_SLA_Infantry_Marksman: rhs_msv_marksman
-	{
+	class LOP_SLA_Infantry_Marksman: rhs_msv_marksman	{
 		_generalMacro = "LOP_SLA_Infantry_Marksman";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 3;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -566,10 +566,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Sniper","H_Bandanna_khk","G_Bandanna_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_Sidor_SVD";
 	};
-	class LOP_SLA_Infantry_Sniper: B_sniper_F
-	{
+	class LOP_SLA_Infantry_Sniper: B_sniper_F	{
 		_generalMacro = "LOP_SLA_Infantry_Sniper";
 		author = "Esper";
+		asr_ai_level = 10;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -591,10 +591,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Sniper","H_Bandanna_khk","G_Bandanna_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_Sidor_SVD";
 	};
-	class LOP_SLA_Infantry_AT: rhs_msv_at
-	{
+	class LOP_SLA_Infantry_AT: rhs_msv_at	{
 		_generalMacro = "LOP_SLA_Infantry_AT";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -614,10 +614,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Rifleman","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_RPG_Pack";
 	};
-	class LOP_SLA_Infantry_AA: rhs_msv_aa
-	{
+	class LOP_SLA_Infantry_AA: rhs_msv_aa	{
 		_generalMacro = "LOP_SLA_Infantry_AA";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -637,10 +637,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Rifleman","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_AA_Pack";
 	};
-	class LOP_SLA_Infantry_AA_Asst: rhs_msv_aa
-	{
+	class LOP_SLA_Infantry_AA_Asst: rhs_msv_aa	{
 		_generalMacro = "LOP_SLA_Infantry_AA_Asst";
 		author = "Esper";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -660,10 +660,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Rifleman","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_AA_Pack";
 	};
-	class LOP_SLA_Infantry_AT_Asst: rhs_msv_strelok_rpg_assist
-	{
+	class LOP_SLA_Infantry_AT_Asst: rhs_msv_strelok_rpg_assist	{
 		_generalMacro = "LOP_SLA_Infantry_AT_Asst";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -683,10 +683,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Rifleman","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_RPG_Pack";
 	};
-	class LOP_SLA_Infantry_GL: rhs_msv_grenadier
-	{
+	class LOP_SLA_Infantry_GL: rhs_msv_grenadier	{
 		_generalMacro = "LOP_SLA_Infantry_GL";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -706,10 +706,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_vog","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "B_FieldPack_cbr";
 	};
-	class LOP_SLA_Infantry_MG: rhs_msv_machinegunner
-	{
+	class LOP_SLA_Infantry_MG: rhs_msv_machinegunner	{
 		_generalMacro = "LOP_SLA_Infantry_MG";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -729,10 +729,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_6sh92","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_Fieldpack_PKM";
 	};
-	class LOP_SLA_Infantry_MG_Asst: rhs_msv_machinegunner_assistant
-	{
+	class LOP_SLA_Infantry_MG_Asst: rhs_msv_machinegunner_assistant	{
 		_generalMacro = "LOP_SLA_Infantry_MG_Asst";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -752,10 +752,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_6sh92","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_Fieldpack_PKM";
 	};
-	class LOP_SLA_Infantry_Engineer: rhs_msv_engineer
-	{
+	class LOP_SLA_Infantry_Engineer: rhs_msv_engineer	{
 		_generalMacro = "LOP_SLA_Infantry_Engineer";
 		author = "$STR_LOP_FULL_NAME";
+		asr_ai_level = 4;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -774,10 +774,10 @@ class CfgVehicles
 		linkedItems[] = {"LOP_SLA_VEST_Engineer","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Engineer","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class LOP_SLA_Infantry_Rifleman_Ghillie: LOP_SLA_Infantry_Sniper
-	{
+	class LOP_SLA_Infantry_Rifleman_Ghillie: LOP_SLA_Infantry_Sniper	{
 		_generalMacro = "LOP_SLA_Infantry_Rifleman_Ghillie";
 		author = "Esper";
+		asr_ai_level = 2;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -799,10 +799,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Sniper","H_Bandanna_khk","G_Bandanna_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_Sidor_SVD";
 	};
-	class LOP_SLA_Infantry_TL_SpecOps: rhs_msv_sergeant
-	{
+	class LOP_SLA_Infantry_TL_SpecOps: rhs_msv_sergeant	{
 		_generalMacro = "LOP_SLA_Infantry_TL_SpecOps";
 		author = "Esper";
+		asr_ai_level = 1;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -824,10 +824,35 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_headset_mapcase","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "B_FieldPack_oli";
 	};
-	class LOP_SLA_Infantry_GL_SpecOps: rhs_msv_grenadier
-	{
+	class LOP_SLA_Infantry_Rifleman_SpecOps: rhs_msv_sergeant	{
+		_generalMacro = "LOP_SLA_Infantry_Rifleman_SpecOps";
+		author = "Esper";
+		asr_ai_level = 1;
+		scope = 2;
+		side = 0;
+		faction = "LOP_SLA";
+		vehicleClass = "Men";
+		uniformClass = "LOP_U_SLA_Fatigue_01";
+		hiddenSelections[] = {"Camo","Camo3"};
+		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\clothing1_co.paa","\lop_faction_sla\data\ghillie_sla_co.paa"};
+		displayName = "Commando Operator";
+		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
+		faceType = "Man_A3";
+		genericNames = "RussianMen";
+		Items[] = {"FirstAidKit"};
+		RespawnItems[] = {"FirstAidKit"};
+		weapons[] = {"SLA_SpecOps_AK74","Throw","Put","Binocular"};
+		respawnWeapons[] = {"SLA_SpecOps_AK74","Throw","Put","Binocular"};
+		magazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK"};
+		respawnMagazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK"};
+		linkedItems[] = {"LOP_SLA_VEST_headset_mapcase","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"LOP_SLA_VEST_headset_mapcase","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		backpack = "B_FieldPack_oli";
+	};
+	class LOP_SLA_Infantry_GL_SpecOps: rhs_msv_grenadier	{
 		_generalMacro = "LOP_SLA_Infantry_GL_SpecOps";
 		author = "Esper";
+		asr_ai_level = 1;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -849,10 +874,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_vog","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "B_FieldPack_oli";
 	};
-	class LOP_SLA_Infantry_Machinegunner_SpecOps: rhs_msv_machinegunner
-	{
+	class LOP_SLA_Infantry_Machinegunner_SpecOps: rhs_msv_machinegunner	{
 		_generalMacro = "LOP_SLA_Infantry_Machinegunner_SpecOps";
 		author = "Esper";
+		asr_ai_level = 1;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -874,10 +899,10 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_6sh92","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "B_FieldPack_oli";
 	};
-	class LOP_SLA_Infantry_Marksman_SpecOps: rhs_msv_marksman
-	{
+	class LOP_SLA_Infantry_Marksman_SpecOps: rhs_msv_marksman	{
 		_generalMacro = "LOP_SLA_Infantry_Marksman_SpecOps";
 		author = "Esper";
+		asr_ai_level = 1;
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
@@ -897,6 +922,31 @@ class CfgVehicles
 		respawnMagazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1"};
 		linkedItems[] = {"LOP_SLA_VEST_Sniper","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Sniper","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		backpack = "B_FieldPack_oli";
+	};
+	class LOP_SLA_Infantry_AT_SpecOps: rhs_msv_sergeant	{
+		_generalMacro = "LOP_SLA_Infantry_AT_SpecOps";
+		author = "Esper";
+		asr_ai_level = 1;
+		scope = 2;
+		side = 0;
+		faction = "LOP_SLA";
+		vehicleClass = "Men";
+		uniformClass = "LOP_U_SLA_Fatigue_01";
+		hiddenSelections[] = {"Camo","Camo3"};
+		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\clothing1_co.paa","\lop_faction_sla\data\ghillie_sla_co.paa"};
+		displayName = "Commando Anti-Tank";
+		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
+		faceType = "Man_A3";
+		genericNames = "RussianMen";
+		Items[] = {"FirstAidKit"};
+		RespawnItems[] = {"FirstAidKit"};
+		weapons[] = {"SLA_SpecOps_AK74","Throw","Put","Binocular","rhs_weap_rpg26"};
+		respawnWeapons[] = {"SLA_SpecOps_AK74","Throw","Put","Binocular","rhs_weap_rpg26"};
+		magazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK"};
+		respawnMagazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK"};
+		linkedItems[] = {"LOP_SLA_VEST_headset_mapcase","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"LOP_SLA_VEST_headset_mapcase","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "B_FieldPack_oli";
 	};
 	
@@ -1459,14 +1509,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "SERGEANT";
 						position[] = {-5,0,0};
 					};
@@ -1537,14 +1587,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
@@ -1594,14 +1644,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
@@ -1651,14 +1701,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "SERGEANT";
 						position[] = {-5,0,0};
 					};
@@ -1708,7 +1758,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "LIEUTENANT";
 						position[] = {0,5,0};
 					};
@@ -1751,7 +1801,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "LIEUTENANT";
 						position[] = {0,5,0};
 					};
@@ -1794,7 +1844,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "LIEUTENANT";
 						position[] = {0,5,0};
 					};
@@ -1837,7 +1887,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "LIEUTENANT";
 						position[] = {0,5,0};
 					};
@@ -1916,7 +1966,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "LIEUTENANT";
 						position[] = {0,5,0};
 					};
@@ -1935,34 +1985,12 @@ class CfgGroups
 						position[] = {3,0,0};
 					};
 				};
-				class LOP_SLA_Infantry_Sniper_Team
-				{
-					name = "Sniper team";
-					faction = "LOP_SLA";
-					side=0;
-					rarityGroup = 0.75;
-
-					class Unit0
-					{
-						side = 0;
-						vehicle = "LOP_SLA_Infantry_Sniper";
-						rank = "LIEUTENANT";
-						position[] = {0,5,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "LOP_SLA_Infantry_Rifleman_Ghillie";
-						rank = "PRIVATE";
-						position[] = {-5,0,0};
-					};
-					
-				};
+				
 			
 			};
 			class Motorized
 			{
-			    name = "Motorized Infantry";
+			    name = "Motorized";
 			    class LOP_SLA_infantry_chq_motor
 				{
 					name = "Company HQ";
@@ -1980,14 +2008,14 @@ class CfgGroups
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "LIEUTENANT";
 						position[] = {-5,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "LIEUTENANT";
 						position[] = {3,0,0};
 					};
@@ -2009,14 +2037,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "SERGEANT";
 						position[] = {-5,0,0};
 					};
@@ -2087,14 +2115,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
@@ -2144,14 +2172,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
@@ -2201,14 +2229,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "SERGEANT";
 						position[] = {-5,0,0};
 					};
@@ -2258,7 +2286,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "LIEUTENANT";
 						position[] = {0,5,0};
 					};
@@ -2338,7 +2366,7 @@ class CfgGroups
 			};
 			class Mechanized
 			{
-				name = "Mechanized Infantry";
+				name = "Mechanized";
 				class LOP_SLA_infantry_chq_btr
 				{
 					name = "(BTR) Company HQ";
@@ -2356,14 +2384,14 @@ class CfgGroups
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "LIEUTENANT";
 						position[] = {-5,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "LIEUTENANT";
 						position[] = {3,0,0};
 					};
@@ -2385,14 +2413,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "SERGEANT";
 						position[] = {-5,0,0};
 					};
@@ -2450,14 +2478,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
@@ -2507,14 +2535,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
@@ -2564,14 +2592,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "SERGEANT";
 						position[] = {-5,0,0};
 					};
@@ -2621,7 +2649,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "LIEUTENANT";
 						position[] = {0,5,0};
 					};
@@ -2680,14 +2708,14 @@ class CfgGroups
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "LIEUTENANT";
 						position[] = {-5,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "LIEUTENANT";
 						position[] = {3,0,0};
 					};
@@ -2709,14 +2737,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "SERGEANT";
 						position[] = {-5,0,0};
 					};
@@ -2774,14 +2802,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
@@ -2831,14 +2859,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
@@ -2888,14 +2916,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_TL";
+						vehicle = "LOP_SLA_Infantry_SL";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "SERGEANT";
 						position[] = {-5,0,0};
 					};
@@ -2945,7 +2973,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "LOP_SLA_Infantry_SL";
+						vehicle = "LOP_SLA_Infantry_TL";
 						rank = "LIEUTENANT";
 						position[] = {0,5,0};
 					};
@@ -2989,7 +3017,7 @@ class CfgGroups
 			};
 			class Armored
 			{
-				name = "Tank Groups";
+				name = "Armored";
 				class LOP_SLA_T72BA_Platoon
 				{
 					name = "T-72 g.1984 Platoon";
@@ -3130,6 +3158,147 @@ class CfgGroups
 						position[] = {20,-30,3};
 					};
 				};
+			};
+			class SpecOps
+			{
+				name = "Special Forces";
+				class LOP_SLA_Infantry_fireteam
+				{
+					name = "Commando Team";
+					faction = "LOP_SLA";
+					side=0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_SL_SpecOps";
+						rank = "LIEUTENANT";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_MG_SpecOps";
+						rank = "PRIVATE";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_Marksman_SpecOps";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_GL_SpecOps";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+				};
+				class LOP_SLA_Infantry_squad
+				{
+					name = "Commando Squad";
+					faction = "LOP_SLA";
+					side=0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_SL_SpecOps";
+						rank = "SERGEANT";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_SL_SpecOps";
+						rank = "SERGEANT";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_GL_SpecOps";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_Rifleman_SpecOps";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_MG_SpecOps";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_AT_SpecOps";
+						rank = "PRIVATE";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_Rifleman_SpecOps";
+						rank = "PRIVATE";
+						position[] = {11,0,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_Rifleman_SpecOps";
+						rank = "PRIVATE";
+						position[] = {13,0,0};
+					};
+					class Unit8
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_Rifleman_SpecOps";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+					class Unit9
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_Rifleman_SpecOps";
+						rank = "PRIVATE";
+						position[] = {17,0,0};
+					};
+				};
+				class LOP_SLA_Infantry_Sniper_Team
+				{
+					name = "Sniper team";
+					faction = "LOP_SLA";
+					side=0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_Sniper";
+						rank = "LIEUTENANT";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "LOP_SLA_Infantry_Rifleman_Ghillie";
+						rank = "PRIVATE";
+						position[] = {-5,0,0};
+					};
+					
+	            };		
 			};
 		};
 	};
