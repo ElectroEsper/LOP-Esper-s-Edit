@@ -52,6 +52,12 @@ class cfgWeapons
 	class rhs_6b23_6sh92_vog;
 	class rhs_6b23_6sh92;
 	class U_B_GhillieSuit;
+	class rhs_weap_ak74m;
+	class rhs_weap_ak74m_gp25;
+	class rhs_weap_pkp;
+	class rhs_weap_svds;
+	class H_Beret_blk;
+	
 	class Uniform_Base: ItemCore
 	{
 		class ItemInfo;
@@ -269,6 +275,78 @@ class cfgWeapons
 		hiddenSelections[] = {"Camo1", "Camo2"};
 		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\lop_sla_vest.paa", "lop_faction_sla\data\sla_GearPack1_lop_co.paa"};
 	};
+	class SLA_SpecOps_AK74 : rhs_weap_ak74m {
+		_generalMacro = "SLA_SpecOps_AK74";
+		author = "Esper";
+		
+		scope = 2;
+		displayName = "AK-74M Spec";
+		class LinkedItems
+		{
+		 class LinkedItemsOptics
+		 {
+		 slot = "CowsSlot";
+         item = "rhs_acc_1p29";
+		 }; 
+		};
+		
+	};
+	class SLA_SpecOps_AK74GL : rhs_weap_ak74m_gp25 {
+		_generalMacro = "SLA_SpecOps_AK74GL";
+		author = "Esper";
+		
+		scope = 2;
+		displayName = "AK-74M GP-25 Spec";
+		class LinkedItems
+		{
+		 class LinkedItemsOptics
+		 {
+		 slot = "CowsSlot";
+         item = "rhs_acc_1p29";
+		 }; 
+		};
+		
+	};
+	class SLA_SpecOps_MG : rhs_weap_pkp {
+		_generalMacro = "SLA_SpecOps_MG";
+		author = "Esper";
+		
+		scope = 2;
+		displayName = "PKP Spec";
+		class LinkedItems
+		{
+		 class LinkedItemsOptics
+		 {
+		 slot = "CowsSlot";
+         item = "rhs_acc_1p29";
+		 }; 
+		};
+		
+	};
+	class SLA_SpecOps_Marks : rhs_weap_svds {
+		_generalMacro = "SLA_SpecOps_Marks";
+		author = "Esper";
+		
+		scope = 2;
+		displayName = "SVDS Spec";
+		class LinkedItems
+		{
+		 class LinkedItemsOptics
+		 {
+		 slot = "CowsSlot";
+         item = "rhs_acc_pso1m2";
+		 }; 
+		};
+		
+	};
+	class LOP_SLA_Beret_SF: H_Beret_blk {
+		_generalMacro = "LOP_SLA_Beret_SF";
+		author = "Esper";
+		scope = 2;
+		displayName = "Beret (SLA|SF)";
+		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\sla_sf_beret_co.paa"};
+		hiddenSelections[] = {"Camo"};
+	};
 
     	
 };
@@ -298,7 +376,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Rifleman";
 		hiddenSelections[] = {"camo1","camo2","camob","insignia"};
@@ -323,7 +401,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_US_Fatigue_03";
 		displayName = "Pilot";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -350,14 +428,14 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Crew","rhs_zsh7a_mike","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "";
 	};
-	class LOP_SLA_Infantry_TL: rhs_msv_sergeant
+	class LOP_SLA_Infantry_TL: rhs_msv_junior_sergeant
 	{
 		_generalMacro = "LOP_SLA_Infantry_TL";
 		author = "$STR_LOP_FULL_NAME";
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Team Leader";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -373,14 +451,14 @@ class CfgVehicles
 		respawnLinkedItems[] = {"LOP_SLA_VEST_vog_headset","LOP_H_SSh68Helmet_OLV","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "";
 	};
-	class LOP_SLA_Infantry_SL: rhs_msv_junior_sergeant
+	class LOP_SLA_Infantry_SL: rhs_msv_sergeant
 	{
 		_generalMacro = "LOP_SLA_Infantry_SL";
 		author = "Esper";
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Squad Leader";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -403,7 +481,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_US_Fatigue_03";
 		displayName = "Crewman";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -426,7 +504,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Corpsman";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -449,7 +527,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Officer";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -472,7 +550,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Marksman";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -495,7 +573,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_SLA_GhillieSuit";
 		hiddenSelections[] = {"Camo","Camo3"};
 		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\clothing1_co.paa","\lop_faction_sla\data\ghillie_sla_co.paa"};
@@ -520,7 +598,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Rifleman (RPG-7)";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -543,7 +621,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "AA Specialist (Igla)";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -566,7 +644,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "AA Assistant (Igla)";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -589,7 +667,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Ammo Bearer (RPG7)";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -612,7 +690,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Grenadier";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -635,7 +713,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Machinegunner";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -658,7 +736,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Machinegunner assistant";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -681,7 +759,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_U_SLA_Fatigue_01";
 		displayName = "Engineer";
 		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
@@ -703,7 +781,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Men";
+		vehicleClass = "Men";
 		uniformClass = "LOP_SLA_GhillieSuit";
 		hiddenSelections[] = {"Camo","Camo3"};
 		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\clothing1_co.paa","\lop_faction_sla\data\ghillie_sla_co.paa"};
@@ -720,6 +798,106 @@ class CfgVehicles
 		linkedItems[] = {"LOP_SLA_VEST_Sniper","H_Bandanna_khk","G_Bandanna_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"LOP_SLA_VEST_Sniper","H_Bandanna_khk","G_Bandanna_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "LOP_SLA_Sidor_SVD";
+	};
+	class LOP_SLA_Infantry_TL_SpecOps: rhs_msv_sergeant
+	{
+		_generalMacro = "LOP_SLA_Infantry_TL_SpecOps";
+		author = "Esper";
+		scope = 2;
+		side = 0;
+		faction = "LOP_SLA";
+		vehicleClass = "Men";
+		uniformClass = "LOP_U_SLA_Fatigue_01";
+		hiddenSelections[] = {"Camo","Camo3"};
+		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\clothing1_co.paa","\lop_faction_sla\data\ghillie_sla_co.paa"};
+		displayName = "Commando Leader";
+		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
+		faceType = "Man_A3";
+		genericNames = "RussianMen";
+		Items[] = {"FirstAidKit","ToolKit"};
+		RespawnItems[] = {"FirstAidKit","ToolKit"};
+		weapons[] = {"SLA_SpecOps_AK74","Throw","Put","Binocular"};
+		respawnWeapons[] = {"SLA_SpecOps_AK74","Throw","Put","Binocular"};
+		magazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK"};
+		respawnMagazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK"};
+		linkedItems[] = {"LOP_SLA_VEST_headset_mapcase","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"LOP_SLA_VEST_headset_mapcase","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		backpack = "B_FieldPack_oli";
+	};
+	class LOP_SLA_Infantry_GL_SpecOps: rhs_msv_grenadier
+	{
+		_generalMacro = "LOP_SLA_Infantry_GL_SpecOps";
+		author = "Esper";
+		scope = 2;
+		side = 0;
+		faction = "LOP_SLA";
+		vehicleClass = "Men";
+		uniformClass = "LOP_U_SLA_Fatigue_01";
+		hiddenSelections[] = {"Camo","Camo3"};
+		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\clothing1_co.paa","\lop_faction_sla\data\ghillie_sla_co.paa"};
+		displayName = "Commando Grenadier";
+		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
+		faceType = "Man_A3";
+		genericNames = "RussianMen";
+		Items[] = {"FirstAidKit"};
+		RespawnItems[] = {"FirstAidKit"};
+		weapons[] = {"SLA_SpecOps_AK74GL","Throw","Put","Binocular"};
+		respawnWeapons[] = {"SLA_SpecOps_AK74GL","Throw","Put","Binocular"};
+		magazines[] = {"rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VG40TB","rhs_VG40TB","rhs_VG40TB","rhs_VG40SZ","rhs_VG40SZ","rhs_VG40SZ","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK"};
+		respawnMagazines[] = {"rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VG40TB","rhs_VG40TB","rhs_VG40TB","rhs_VG40SZ","rhs_VG40SZ","rhs_VG40SZ","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK"};
+		linkedItems[] = {"LOP_SLA_VEST_vog","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"LOP_SLA_VEST_vog","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		backpack = "B_FieldPack_oli";
+	};
+	class LOP_SLA_Infantry_Machinegunner_SpecOps: rhs_msv_machinegunner
+	{
+		_generalMacro = "LOP_SLA_Infantry_Machinegunner_SpecOps";
+		author = "Esper";
+		scope = 2;
+		side = 0;
+		faction = "LOP_SLA";
+		vehicleClass = "Men";
+		uniformClass = "LOP_U_SLA_Fatigue_01";
+		hiddenSelections[] = {"Camo","Camo3"};
+		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\clothing1_co.paa","\lop_faction_sla\data\ghillie_sla_co.paa"};
+		displayName = "Commando Machinegunner";
+		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
+		faceType = "Man_A3";
+		genericNames = "RussianMen";
+		Items[] = {"FirstAidKit"};
+		RespawnItems[] = {"FirstAidKit"};
+		weapons[] = {"SLA_SpecOps_MG","Throw","Put","Binocular"};
+		respawnWeapons[] = {"SLA_SpecOps_MG","Throw","Put","Binocular"};
+		magazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR"};
+		respawnMagazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR"};
+		linkedItems[] = {"LOP_SLA_VEST_6sh92","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"LOP_SLA_VEST_6sh92","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		backpack = "B_FieldPack_oli";
+	};
+	class LOP_SLA_Infantry_Marksman_SpecOps: rhs_msv_marksman
+	{
+		_generalMacro = "LOP_SLA_Infantry_Marksman_SpecOps";
+		author = "Esper";
+		scope = 2;
+		side = 0;
+		faction = "LOP_SLA";
+		vehicleClass = "Men";
+		uniformClass = "LOP_U_SLA_Fatigue_01";
+		hiddenSelections[] = {"Camo","Camo3"};
+		hiddenSelectionsTextures[] = {"\lop_faction_sla\data\clothing1_co.paa","\lop_faction_sla\data\ghillie_sla_co.paa"};
+		displayName = "Commando Marksman";
+		identityTypes[] = {"LanguageRUS","Head_Euro","Head_Asian","G_IRAN_default"};
+		faceType = "Man_A3";
+		genericNames = "RussianMen";
+		Items[] = {"FirstAidKit"};
+		RespawnItems[] = {"FirstAidKit"};
+		weapons[] = {"SLA_SpecOps_Marks","Throw","Put","Binocular"};
+		respawnWeapons[] = {"SLA_SpecOps_Marks","Throw","Put","Binocular"};
+		magazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1"};
+		respawnMagazines[] = {"rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_zarya2","rhs_mag_zarya2","rhs_mag_rdg2_black","rhs_mag_rdg2_black","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1"};
+		linkedItems[] = {"LOP_SLA_VEST_Sniper","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"LOP_SLA_VEST_Sniper","LOP_SLA_Beret_SF","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		backpack = "B_FieldPack_oli";
 	};
 	
 	class RHS_Mi8mt_Cargo_vvs;
@@ -769,7 +947,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Aircraft";
+		vehicleClass = "Air";
 		typicalCargo[] = {"LOP_SLA_Infantry_Pilot"};
 		crew = "LOP_SLA_Infantry_Pilot";
 		hiddenselectionstextures[] = {"\lop_faction_sla\data\mi8_body_olv_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo2_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa"};
@@ -788,7 +966,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Aircraft";
+		vehicleClass = "Air";
 		typicalCargo[] = {"LOP_SLA_Infantry_Pilot"};
 		crew = "LOP_SLA_Infantry_Pilot";
 		hiddenselectionstextures[] = {"\lop_faction_sla\data\mi8_body_olv_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo2_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa"};
@@ -807,7 +985,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Aircraft";
+		vehicleClass = "Air";
 		typicalCargo[] = {"LOP_SLA_Infantry_Pilot"};
 		crew = "LOP_SLA_Infantry_Pilot";
 		hiddenselectionstextures[] = {"\lop_faction_sla\data\mi8_body_olv_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo2_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa"};
@@ -947,6 +1125,9 @@ class CfgVehicles
 	class O_Truck_02_transport_F;
 	class O_Truck_02_fuel_F;
 	class O_Truck_02_Ammo_F;
+	class rhs_bmp2k_msv;
+	class rhs_prp3_msv;
+	
 	class LOP_SLA_BM21: RHS_BM21_MSV_01
 	{
 		_generalMacro = "LOP_SLA_BM21";
@@ -954,7 +1135,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Wheeled";
+		vehicleClass = "Cars";
 		displayName = "BM-21 GRAD";
 		typicalCargo[] = {"LOP_SLA_Infantry_Rifleman"};
 		crew = "LOP_SLA_Infantry_Rifleman";
@@ -973,7 +1154,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Wheeled";
+		vehicleClass = "Cars";
 		typicalCargo[] = {"LOP_SLA_Infantry_Rifleman"};
 		crew = "LOP_SLA_Infantry_Rifleman";
 		class TransportMagazines{};
@@ -992,7 +1173,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Wheeled";
+		vehicleClass = "Cars";
 		typicalCargo[] = {"LOP_SLA_Infantry_Rifleman"};
 		crew = "LOP_SLA_Infantry_Rifleman";
 		class TransportMagazines{};
@@ -1011,7 +1192,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Wheeled";
+		vehicleClass = "Cars";
 		typicalCargo[] = {"LOP_SLA_Infantry_Rifleman"};
 		crew = "LOP_SLA_Infantry_Rifleman";
 		class TransportMagazines{};
@@ -1030,7 +1211,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Wheeled";
+		vehicleClass = "Cars";
 		typicalCargo[] = {"LOP_SLA_Infantry_Rifleman"};
 		crew = "LOP_SLA_Infantry_Rifleman";
 		class TransportMagazines{};
@@ -1046,43 +1227,13 @@ class CfgVehicles
 	{
 		class EventHandlers;
 	};
-	class rhs_btr70_vmf;
-	class rhs_btr70_msv: rhs_btr70_vmf
-	{
-		class EventHandlers;
-	};
 	class rhs_zsutank_base;
 	class rhs_zsu234_aa: rhs_zsutank_base
 	{
 		class EventHandlers;
 	};
-	class rhs_bmp1_vdv;
-	class rhs_bmp1_msv: rhs_bmp1_vdv
-	{
-		class EventHandlers;
-	};
 	class rhs_bmp2_vdv;
 	class rhs_bmp2_msv: rhs_bmp2_vdv
-	{
-		class EventHandlers;
-	};
-	class rhs_bmp1d_vdv;
-	class rhs_bmp1d_msv: rhs_bmp1d_vdv
-	{
-		class EventHandlers;
-	};
-	class rhs_bmp2d_vdv;
-	class rhs_bmp2d_msv: rhs_bmp2d_vdv
-	{
-		class EventHandlers;
-	};
-	class rhs_bmd1_base;
-	class rhs_bmd1: rhs_bmd1_base
-	{
-		class EventHandlers;
-	};
-	class rhs_bmd2_base;
-	class rhs_bmd2_chdkz: rhs_bmd2_base
 	{
 		class EventHandlers;
 	};
@@ -1102,7 +1253,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Armored";
+		vehicleClass = "Armored";
 		crew = "LOP_SLA_Infantry_Crewman";
 		typicalCargo[] = {"LOP_SLA_Infantry_Crewman"};
 		class TransportMagazines{};
@@ -1120,7 +1271,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Armored";
+		vehicleClass = "Armored";
 		crew = "LOP_SLA_Infantry_Crewman";
 		typicalCargo[] = {"LOP_SLA_Infantry_Crewman"};
 		class TransportMagazines{};
@@ -1131,14 +1282,14 @@ class CfgVehicles
 			init = "_this call SLX_XEH_EH_Init;(_this select 0) execVM ""\lop_faction_sla\scripts\sla_t72_decals.sqf""";
 		};
 	};
-	class LOP_SLA_BMP2D: rhs_bmp2d_msv
+	class LOP_SLA_BMP2K: rhs_bmp2k_msv
 	{
-		author = "$STR_LOP_FULL_NAME";
-		_generalMacro = "LOP_SLA_BMP2D";
+		author = "Esper";
+		_generalMacro = "LOP_SLA_BMP2k";
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Armored";
+		vehicleClass = "Armored";
 		displayName = "BMP-2D";
 		crew = "LOP_SLA_Infantry_Crewman";
 		typicalCargo[] = {"LOP_SLA_Infantry_Crewman"};
@@ -1159,50 +1310,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Armored";
+		vehicleClass = "Armored";
 		displayName = "BMP-2";
-		crew = "LOP_SLA_Infantry_Crewman";
-		typicalCargo[] = {"LOP_SLA_Infantry_Crewman"};
-		class TransportMagazines{};
-		class TransportWeapons{};
-		class TransportItems{};
-		class eventhandlers
-		{
-			init = "_this call SLX_XEH_EH_Init;(_this select 0) execVM ""\lop_faction_sla\scripts\sla_bmp_decals.sqf""";
-		};
-		hiddenSelections[] = {"n1","n2","n3","i1","i2","i3","i4","i5","camo1","camo2","camo3","camo4","camo5","camo6"};
-		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_bmp\textures\bmp_1_co.paa","rhsafrf\addons\rhs_bmp\textures\bmp_2_co.paa","rhsafrf\addons\rhs_bmp\textures\bmp_3_co.paa","rhsafrf\addons\rhs_bmp\textures\bmp_4_co.paa","rhsafrf\addons\rhs_bmp\textures\bmp_5_co.paa","rhsafrf\addons\rhs_bmp\textures\bmp_6_co.paa"};
-	};
-	class LOP_SLA_BMP1: rhs_bmp1_msv
-	{
-		author = "$STR_LOP_FULL_NAME";
-		_generalMacro = "LOP_SLA_BMP1";
-		scope = 2;
-		side = 0;
-		faction = "LOP_SLA";
-		vehicleClass = "LOP_Armored";
-		displayName = "BMP-1";
-		crew = "LOP_SLA_Infantry_Crewman";
-		typicalCargo[] = {"LOP_SLA_Infantry_Crewman"};
-		class TransportMagazines{};
-		class TransportWeapons{};
-		class TransportItems{};
-		class eventhandlers
-		{
-			init = "_this call SLX_XEH_EH_Init;(_this select 0) execVM ""\lop_faction_sla\scripts\sla_bmp_decals.sqf""";
-		};
-		hiddenSelections[] = {"n1","n2","n3","i1","i2","i3","i4","i5","camo1","camo2","camo3","camo4","camo5","camo6"};
-		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_bmp\textures\bmp_1_co.paa","rhsafrf\addons\rhs_bmp\textures\bmp_2_co.paa","rhsafrf\addons\rhs_bmp\textures\bmp_3_co.paa","rhsafrf\addons\rhs_bmp\textures\bmp_4_co.paa","rhsafrf\addons\rhs_bmp\textures\bmp_5_co.paa","rhsafrf\addons\rhs_bmp\textures\bmp_6_co.paa"};
-	};
-	class LOP_SLA_BMP1D: rhs_bmp1d_msv
-	{
-		author = "$STR_LOP_FULL_NAME";
-		_generalMacro = "LOP_SLA_BMP1D";
-		scope = 2;
-		side = 0;
-		faction = "LOP_SLA";
-		vehicleClass = "LOP_Armored";
-		displayName = "BMP-1D";
 		crew = "LOP_SLA_Infantry_Crewman";
 		typicalCargo[] = {"LOP_SLA_Infantry_Crewman"};
 		class TransportMagazines{};
@@ -1222,7 +1331,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Armored";
+		vehicleClass = "Armored";
 		displayName = "ZSU-23-4V";
 		crew = "LOP_SLA_Infantry_Crewman";
 		typicalCargo[] = {"LOP_SLA_Infantry_Crewman"};
@@ -1241,7 +1350,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Armored";
+		vehicleClass = "Armored";
 		displayName = "BTR-60";
 		crew = "LOP_SLA_Infantry_Crewman";
 		typicalCargo[] = {"LOP_SLA_Infantry_Crewman"};
@@ -1253,24 +1362,17 @@ class CfgVehicles
 			init = "_this call SLX_XEH_EH_Init;(_this select 0) execVM ""\lop_faction_sla\scripts\sla_btr_decals.sqf""";
 		};
 	};
-	class LOP_SLA_BTR70: rhs_btr70_msv
+	class LOP_SLA_URAL_FUEL: RHS_Ural_Fuel_MSV_01
 	{
-		author = "$STR_LOP_FULL_NAME";
-		_generalMacro = "LOP_SLA_BTR60";
+		author = "Esper";
+		_generalMacro = "LOP_SLA_URAL_FUEL";
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Armored";
-		displayName = "BTR-70";
-		crew = "LOP_SLA_Infantry_Crewman";
-		typicalCargo[] = {"LOP_SLA_Infantry_Crewman"};
-		class TransportMagazines{};
-		class TransportWeapons{};
-		class TransportItems{};
-		class eventhandlers
-		{
-			init = "_this call SLX_XEH_EH_Init;(_this select 0) execVM ""\lop_faction_sla\scripts\sla_btr_decals.sqf""";
-		};
+		vehicleClass = "Support";
+		displayName = "Ural-4320 (Fuel) [SLA]";
+		crew = "LOP_SLA_Infantry_Rifleman";
+		typicalCargo[] = {"LOP_SLA_Infantry_Rifleman"};
 	};
 	class LOP_SLA_KA52 : RHS_Ka52_base
 	{
@@ -1279,7 +1381,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		faction = "LOP_SLA";
-		vehicleClass = "LOP_Aircraft";
+		vehicleClass = "Air";
 		crew = "LOP_SLA_Infantry_Pilot";
 		displayName = "Ka-52";
 		hiddenSelections[] = {"Camo1","Camo2"};
@@ -1298,7 +1400,7 @@ class CfgVehicles
 		faction = "LOP_SLA";
 		crew = "LOP_SLA_Infantry_Rifleman";
 		typicalCargo[] = {"LOP_SLA_Infantry_Rifleman"};
-		vehicleClass = "LOP_Static";
+		vehicleClass = "Static";
 	};
 };
 class CfgGroups
@@ -2592,7 +2694,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 0;
-						vehicle = "LOP_SLA_BMP1D";
+						vehicle = "LOP_SLA_BMP2D";
 						rank = "SERGEANT";
 						position[] = {5,0,0};
 					};
@@ -2628,7 +2730,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 0;
-						vehicle = "LOP_SLA_BMP1";
+						vehicle = "LOP_SLA_BMP2";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -2693,7 +2795,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 0;
-						vehicle = "LOP_SLA_BMP1";
+						vehicle = "LOP_SLA_BMP2";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -2750,7 +2852,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 0;
-						vehicle = "LOP_SLA_BMP1";
+						vehicle = "LOP_SLA_BMP2";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -2807,7 +2909,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 0;
-						vehicle = "LOP_SLA_BMP1";
+						vehicle = "LOP_SLA_BMP2";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -2871,7 +2973,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 0;
-						vehicle = "LOP_SLA_BMP1";
+						vehicle = "LOP_SLA_BMP2";
 						rank = "PRIVATE";
 						position[] = {7,0,0};
 					};
